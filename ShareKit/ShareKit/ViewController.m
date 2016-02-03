@@ -38,7 +38,7 @@
     
     QQApiNewsObject* imgObj = [QQApiNewsObject objectWithURL:url title:title description:tempText previewImageURL:previewURL];
     [imgObj setTitle:title];
-    [imgObj setCflag:kQQAPICtrlFlagQZoneShareOnStart];
+    [imgObj setCflag:kQQAPICtrlFlagQQShare];
     
     SendMessageToQQReq* req = [SendMessageToQQReq reqWithContent:imgObj];
     

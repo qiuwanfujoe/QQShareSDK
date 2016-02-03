@@ -19,9 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    NSString *appid = @"222222";
+    NSString *appid = @"1105069449";
     _oauth = [[TencentOAuth alloc] initWithAppId:appid
-                                     andDelegate:nil];
+                                     andDelegate:self];
 //    NSArray *_permissions =  [NSArray arrayWithObjects:kOPEN_PERMISSION_ADD_SHARE, nil];
 //    [_oauth authorize:_permissions];
     return YES;
